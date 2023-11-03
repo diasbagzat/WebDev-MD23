@@ -1,0 +1,40 @@
+
+.post-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .input-container {
+    border: 1px solid #1da1f2;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #e1f5fe;
+  }
+  
+  .input-container textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    resize: none;
+  }
+  
+  .input-container button {
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    float: right;
+  }
+  
+  .input-container button:hover {
+    background-color: #1990d6;
+  }
+  

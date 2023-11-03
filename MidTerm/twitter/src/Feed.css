@@ -1,0 +1,90 @@
+
+.feed-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .tweet {
+    border: 1px solid #e1e8ed;
+    padding: 12px;
+    margin: 8px 0;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+  }
+  
+
+  .tweet-text {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+
+  .tweet-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tweet-button {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: #667580;
+    cursor: pointer;
+  }
+  
+  .tweet-button:hover {
+    color: #1da1f2;
+  }
+  
+
+  .like-button {
+    color: #667580;
+  }
+  
+  .dislike-button {
+    color: #667580;
+  }
+  
+
+  .edit-button {
+    color: #1da1f2;
+  }
+  
+  .delete-button {
+    color: #e0245e;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e1e8ed;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 10px 0;
+  }
+  
+  .input-container input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 6px;
+    font-size: 16px;
+    background-color: transparent;
+  }
+  
+  .input-container button {
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  .input-container button:hover {
+    background-color: #1990d6;
+  }
+  

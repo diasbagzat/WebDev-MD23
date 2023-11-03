@@ -1,0 +1,33 @@
+/* Style for the navbar */
+.navbar {
+    background-color: #1da1f2; /* Twitter blue color */
+    padding: 12px;
+    text-align: center;
+  }
+  
+  /* Style for the navigation list */
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style for each navigation item */
+  .nav-item {
+    margin: 0 20px;
+    display: inline;
+  }
+  
+  /* Style for the navigation links */
+  .nav-link {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.2s;
+  }
+  
+  .nav-link:hover {
+    color: #fff; /* White text color on hover */
+  }
+  
